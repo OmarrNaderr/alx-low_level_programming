@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /**
- * main as an entry point
- * betty style doc for function
- * Return always 0
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
  */
 
 int main(void)
