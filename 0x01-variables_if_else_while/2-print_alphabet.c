@@ -17,7 +17,7 @@ int main(void)
 
 	char ch;
 
-	for (ch = 97, ch <= 122, ch++)
+	for (ch = 'a', ch <= 'z', ch++)
 		putchar(ch);
 		putchar("\n")
 	return (0);
