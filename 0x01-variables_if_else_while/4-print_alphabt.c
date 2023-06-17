@@ -12,7 +12,7 @@ int main(void)
 {
 	char alph;
 
-	for (alph = 'a'; alph <= 'z'; )
+	for (alph = 'a'; alph <= 'z'; alph++ )
 	{
 		if (alph != 'e' && alph != 'q')
 		putchar(alph);
