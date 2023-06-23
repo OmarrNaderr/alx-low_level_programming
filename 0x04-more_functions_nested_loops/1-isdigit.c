@@ -6,19 +6,19 @@
  * Return: 1 if c is uppercase or 0 otherwise
  */
 
-int _isdigit(int c);
+int _isdigit(int c)
 {
-	char n = '0';
-	int is_digit = 0;
+	char i = '0';
+	int isdigit = 0;
 
-	for (; n <= '9'; n++)
+	for (; i <= '9'; i++)
 	{
-		if (c == n)
+		if (i == c)
 		{
-			is_digit = 1;
+			isdigit = 1;
 			break;
 		}
 	}
 
-	return (is_digit);
+	return (isdigit);
 }
