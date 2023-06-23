@@ -5,10 +5,20 @@
  * @c: An input character
  * Return: 1 if c is uppercase or 0 otherwise
  */
+
 int _isupper(int c)
 {
-    if (c >= 65 && c <= 90)
-        return(1);
-    else
-        return(0);
+	char Case = 'A';
+	int is_upper = 0;
+
+	for (; Case <= 'Z'; Case++)
+	{
+		if (c == Case)
+		{
+			is_upper = 1;
+			break;
+		}
+	}
+
+	return (is_upper);
 }
