@@ -8,12 +8,12 @@
 
 int _isdigit(int c);
 {
-	char digit = '0';
+	char n = '0';
 	int is_digit = 0;
 
-	for (; digit <= '9'; digit++)
+	for (; n <= '9'; n++)
 	{
-		if (c == digit)
+		if (c == n)
 		{
 			is_digit = 1;
 			break;
